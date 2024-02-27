@@ -2,32 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.btn {
+    @apply rounded-xl h-10 px-4 grid place-content-center font-semibold transition-all;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* .btn-primary {
+    @apply bg-primary text-white;
+} */
+
+.btn-danger {
+    @apply bg-red-500 text-white;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.main-angel {
+    display: flex;
+    /* padding: 10px 45px; */
+    text-decoration: none;
+    transition: 1s;
+    transform: skewX(-8deg);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.cta:hover {
+    transition: 0.5s;
+}
+
+
+.get-btn {
+    transform: skewX(15deg)
+}
+
+.time-duration {
+    transition: 0.5s;
 }

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/VWWg3DM/blog-page-img-1.webp",
+        "title": "TRANSPORTATION IS THE REAL TIME  BUSINESS",
+        "details": "From finance, retail, and travel, to social br media, cyber security, adtech, and more, market leaders.",
+        "dates": 20,
+        "date": 5,
+        "month": "jun",
+        "months": "Nov",
+        "decription": "GLOBAL PROVIDER PRODUCTS FOR EVERYONE"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp",
+        "title": "THIS SCHEMATIC APPROACH WAS LATER ADOPTED",
+        "details": "From finance, retail, and travel, to social media, cyber security, adtech, and more, market leaders",
+        "dates": 12,
+        "date": 10,
+        "month": "jun",
+        "months": "feb",
+        "decription": "IN PROMOTION ADVERTISING TESTIMONIAL"
+    },
+    {
+        "id": 3,
+        "title": "THIS SCHEMATIC APPROACH WAS LATER ADOPTED",
+        "details": "From finance, retail, and travel, to social media, cyber security, adtech, and more, market leaders",
+        "dates": 12,
+        "date": 10,
+        "month": "jun",
+        "months": "feb",
+        "decription": "LOGISTICS SEEKS TO BE A PREMIER, PROFITABLE"
+    }
+]

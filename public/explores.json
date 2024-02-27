@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/pw4ccw5/gallery-01.webp",
+        "details": "Rising online grocery sales",
+        "title": "Logistics"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/t3KzK0B/gallery-05.webp",
+        "details": "camical factory documents",
+        "title": "Logistics"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/2ykfWhk/gallery-02.webp",
+        "details": "Lockdown Business swell",
+        "title": "Logistics"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/w0DHWc5/gallery-03.webp",
+        "details": "warehouse on-hand inventory",
+        "title": "flaticon-boat"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/23xL2yL/gallery-04.webp",
+        "details": "manufacturing cost minimize",
+        "title": "Logistics"
+    }
+]
