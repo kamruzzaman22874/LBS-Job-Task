@@ -17,11 +17,11 @@ const OurBlogs = () => {
                 <h4 className="text-[#D51B28]">NEWS INSIGHTS</h4>
                 <h1 className="text-4xl text-[#012863] font-bold">OUR BLOG & INSIGHTS</h1>
             </div>
-            <div className="grid md:grid-cols-12 md:px-20 my-10 gap-8">
-                <div className="md:flex  gap-16 px-10 col-span-7 space-y-10">
+            <div className="w-11/12 mx-auto grid lg:grid-cols-3 gap-10 my-20">
+                <div className="lg:col-span-2 grid sm:grid-cols-2 grid-cols-1 gap-5 sm:px-0 px-5">
                     <div className="relative main-angel">
                         <div className="space-y-3">
-                            <Image width={400} height={400} src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog img"></Image>
+                            <Image width={ 550 } height={ 400 } src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog img"></Image>
                             <h2 className="text-[#012863] text-2xl font-bold">TRANSPORTATION IS THE REAL TIME  BUSINESS</h2>
                             <p className="text-md">From finance, retail, and travel, to social br media, cyber security, adtech, and more, market leaders.</p>
                         </div>
@@ -33,7 +33,7 @@ const OurBlogs = () => {
                     </div>
                     <div className="relative main-angel">
                         <div className="space-y-3">
-                            <Image width={400} height={400} src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog"></Image>
+                            <Image width={ 550 } height={ 400 } src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog"></Image>
                             <h2 className="text-[#012863] text-2xl font-bold">THIS SCHEMATIC APPROACH WAS LATER ADOPTED</h2>
                             <p>From finance, retail, and travel, to social media, cyber security, adtech, and more, market leaders.</p>
                         </div>
@@ -43,37 +43,34 @@ const OurBlogs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-5">
-                    <div className="px-6 py-3 flex justify-center">
+                <div className="col-span-1 flex flex-col gap-10">
+                    <div className="flex gap-5 pb-4 border-b">
                         <div className="bg-[#D51B28] flex flex-col p-3 text-white main-angel uppercase text-center">
                             <span className="text-3xl font-bold uppercase">05</span>
                             <span>Nov</span>
                         </div>
-                        <div className="ml-5">
-                            <h2 className="text-[#012863] text-xl font-semibold">GLOBAL PROVIDER PRODUCTS FOR EVERYONE</h2>
+                        <div>
+                            <h2 className="text-[#012863] text-3xl font-semibold">GLOBAL PROVIDER PRODUCTS FOR EVERYONE</h2>
                         </div>
                     </div>
-                    <hr className="ml-5" />
-                    <div className=" px-6 py-3 flex justify-center w-full">
+                    <div className="flex gap-5 pb-4 border-b">
                         <div className="bg-[#D51B28] flex flex-col p-3 text-white main-angel uppercase text-center">
-                            <span className="text-4xl font-bold uppercase">10</span>
-                            <span>feb</span>
+                            <span className="text-3xl font-bold uppercase">05</span>
+                            <span>Nov</span>
                         </div>
-                        <div className="ml-8">
-                            <h2 className="text-[#012863] text-xl font-semibold">IN PROMOTION ADVERTISING TESTIMONIAL</h2>
+                        <div>
+                            <h2 className="text-[#012863] text-3xl font-semibold">GLOBAL PROVIDER PRODUCTS FOR EVERYONE</h2>
                         </div>
                     </div>
-                    <hr className="ml-5" />
-                    <div className=" px-6 py-3 flex justify-center">
+                    <div className="flex gap-5 pb-4 border-b">
                         <div className="bg-[#D51B28] flex flex-col p-3 text-white main-angel uppercase text-center">
-                            <span className="text-4xl font-bold uppercase">13</span>
-                            <span>apr</span>
+                            <span className="text-3xl font-bold uppercase">05</span>
+                            <span>Nov</span>
                         </div>
-                        <div className="ml-8">
-                            <h2 className="text-[#012863] text-xl font-semibold">LOGISTICS SEEKS TO BE A PREMIER, PROFITABLE</h2>
+                        <div>
+                            <h2 className="text-[#012863] text-3xl font-semibold">GLOBAL PROVIDER PRODUCTS FOR EVERYONE</h2>
                         </div>
                     </div>
-                    <hr className="ml-5" />
                 </div>
             </div>
         </section>

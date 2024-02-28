@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn {
-    @apply rounded-xl h-10 px-4 grid place-content-center font-semibold transition-all;
+	@apply rounded-xl h-10 px-4 grid place-content-center font-semibold transition-all;
 }
 
 /* .btn-primary {
@@ -11,26 +11,25 @@
 } */
 
 .btn-danger {
-    @apply bg-red-500 text-white;
+	@apply bg-red-500 text-white;
 }
 
 .main-angel {
-    display: flex;
-    /* padding: 10px 45px; */
-    text-decoration: none;
-    transition: 1s;
-    transform: skewX(-8deg);
+	display: flex;
+	/* padding: 10px 45px; */
+	text-decoration: none;
+	transition: 1s;
+	transform: skewX(-8deg);
 }
 
 .cta:hover {
-    transition: 0.5s;
+	transition: 0.5s;
 }
 
-
 .get-btn {
-    transform: skewX(15deg)
+	transform: skewX(15deg);
 }
 
 .time-duration {
-    transition: 0.5s;
+	transition: 0.5s;
 }
