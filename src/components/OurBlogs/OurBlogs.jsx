@@ -1,17 +1,27 @@
-import Image from "next/image";
 
+import Image from "next/image";
+// import { useEffect, useState } from "react";
+// import Blog from "./Blog";
 const OurBlogs = () => {
+    // const [blogs, setBlogs] = useState([])
+    // useEffect(() => {
+    //     fetch("blogs.json")
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setBlogs(data)
+    //         })
+    // }, [])
     return (
         <section>
             <div className="text-center">
                 <h4 className="text-[#D51B28]">NEWS INSIGHTS</h4>
                 <h1 className="text-4xl text-[#012863] font-bold">OUR BLOG & INSIGHTS</h1>
             </div>
-            <div className="grid md:grid-cols-12 px-20 my-10 gap-8">
-                <div className="md:flex gap-8  col-span-7">
+            <div className="grid md:grid-cols-12 md:px-20 my-10 gap-8">
+                <div className="md:flex  gap-16 px-10 col-span-7 space-y-10">
                     <div className="relative main-angel">
                         <div className="space-y-3">
-                            <Image width={400} height={400} src="https://i.ibb.co/VWWg3DM/blog-page-img-1.webp" alt="blog"></Image>
+                            <Image width={400} height={400} src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog img"></Image>
                             <h2 className="text-[#012863] text-2xl font-bold">TRANSPORTATION IS THE REAL TIME  BUSINESS</h2>
                             <p className="text-md">From finance, retail, and travel, to social br media, cyber security, adtech, and more, market leaders.</p>
                         </div>
@@ -44,7 +54,7 @@ const OurBlogs = () => {
                         </div>
                     </div>
                     <hr className="ml-5" />
-                    <div className=" px-6 py-3 flex justify-center">
+                    <div className=" px-6 py-3 flex justify-center w-full">
                         <div className="bg-[#D51B28] flex flex-col p-3 text-white main-angel uppercase text-center">
                             <span className="text-4xl font-bold uppercase">10</span>
                             <span>feb</span>

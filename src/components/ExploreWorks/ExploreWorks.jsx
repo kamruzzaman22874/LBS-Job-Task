@@ -14,9 +14,9 @@ const ExploreWorks = () => {
     }, [])
     return (
         <div className="my-6">
-            <div className="ml-36">
+            <div className="md:ml-36 ml-16">
                 <h5 className="text-[#bc101c] text-lg">EXPLORE RECENT WORKS</h5>
-                <h1 className="text-[#113771] text-4xl font-bold">MANAGING LOGISTICS FOR WORLD’S <br /> BEST COMPANIES.</h1>
+                <h1 className="text-[#113771] md:text-4xl text-2xl font-bold">MANAGING LOGISTICS FOR WORLD’S <br /> BEST COMPANIES.</h1>
             </div>
             <Marquee speed={100}>
                 <div className="grid grid-cols-5  gap-10 my-5 w-full bg-[#FFFFFF] px-20 py-10">

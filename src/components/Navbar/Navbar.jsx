@@ -28,8 +28,12 @@ const Navbar = () => {
                         <li className="mr-8">
                             <Link href="/about">About</Link>
                         </li>
-                        <li className="mr-8">Contact</li>
-                        <li className="mr-8">Blog</li>
+                        <li className="mr-8">
+                            <Link href="/contact">Contact</Link>
+                        </li>
+                        <li className="mr-8">
+                            <Link href="/blog">Blog</Link>
+                        </li>
                         <div className="hidden md:block">
                             <button className={`bg-[#DB1C29] main-angel  hover:bg-[#0A2761]  text-white transition-all duration-300 px-6 py-3 uppercase `}><p className="get-btn">Get estimation</p></button>
                         </div>

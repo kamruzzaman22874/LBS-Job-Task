@@ -19,7 +19,7 @@ const Services = () => {
             })
     }, [])
     return (
-        <div style={servicesImg} className="px-20 py-10">
+        <div style={servicesImg} className="md:px-20 px-10  py-10">
             <div className="text-center pt-20">
                 <p className="text-[#D51B28]">SERVICES</p>
                 <h1 className="text-3xl text-[#012863] font-bold">WHAT WE DO</h1>
