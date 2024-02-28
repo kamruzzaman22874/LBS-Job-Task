@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="lg:w-8/12 w-11/12 mx-auto grid lg:grid-cols-2">
+        <div className="lg:w-9/12 w-11/12 mx-auto grid lg:grid-cols-2">
             <div className="space-y-6 mb-10 w-full mx-auto">
                 <div className="w-full space-y-3">
                     <h5 className="text-[#bc101c] text-lg">ABOUT US</h5>
@@ -19,7 +19,7 @@ const About = () => {
                 </div>
             </div>
             <div className="parentDiv">
-                <Image className="w-full h-full" width={ 500 } height={ 0 } src="https://i.ibb.co/3pYJK26/about-us.webp" alt="" />
+                <Image className="w-full h-full" width={500} height={0} src="https://i.ibb.co/3pYJK26/about-us.webp" alt="" />
             </div>
         </div>
     );

@@ -21,7 +21,7 @@ const OurBlogs = () => {
                 <div className="lg:col-span-2 grid sm:grid-cols-2 grid-cols-1 gap-5 sm:px-0 px-5">
                     <div className="relative main-angel">
                         <div className="space-y-3">
-                            <Image width={ 550 } height={ 400 } src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog img"></Image>
+                            <Image width={550} height={400} src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog img"></Image>
                             <h2 className="text-[#012863] text-2xl font-bold">TRANSPORTATION IS THE REAL TIME  BUSINESS</h2>
                             <p className="text-md">From finance, retail, and travel, to social br media, cyber security, adtech, and more, market leaders.</p>
                         </div>
@@ -33,7 +33,7 @@ const OurBlogs = () => {
                     </div>
                     <div className="relative main-angel">
                         <div className="space-y-3">
-                            <Image width={ 550 } height={ 400 } src="https://i.ibb.co/gPRD4Kj/blog-page-img-3.webp" alt="blog"></Image>
+                            <Image width={550} height={400} src="https://i.ibb.co/VWWg3DM/blog-page-img-1.webp" alt="blog"></Image>
                             <h2 className="text-[#012863] text-2xl font-bold">THIS SCHEMATIC APPROACH WAS LATER ADOPTED</h2>
                             <p>From finance, retail, and travel, to social media, cyber security, adtech, and more, market leaders.</p>
                         </div>
